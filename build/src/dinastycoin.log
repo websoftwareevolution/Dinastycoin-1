@@ -1,0 +1,8 @@
+2015-Nov-30 22:25:43.742230 INFO [daemon] dinastycoin v1.1.0.1(0.1-g531dacc)
+2015-Nov-30 22:25:43.742969 INFO [daemon] Module folder: /home/franco/dinastycoin/build/src/dinastycoin
+2015-Nov-30 22:25:43.743441 ERROR [currency] failed to parse coinbase tx from hard coded blob
+2015-Nov-30 22:25:43.743720 ERROR [currency] Failed to generate genesis block
+2015-Nov-30 22:26:50.338730 INFO [daemon] dinastycoin v1.1.0.1(0.1-g531dacc)
+2015-Nov-30 22:26:50.342432 INFO [daemon] Module folder: ./dinastycoin
+2015-Nov-30 22:26:50.342870 ERROR [currency] failed to parse coinbase tx from hard coded blob
+2015-Nov-30 22:26:50.343066 ERROR [currency] Failed to generate genesis block

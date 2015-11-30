@@ -1,0 +1,4142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>CryptoNote-RelWithDebInfo@build</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j2</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/franco/Dinastycoin/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/franco/Dinastycoin/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/gtest</name>
+			<type>2</type>
+			<location>/home/franco/Dinastycoin/external/gtest</location>
+		</link>
+		<link>
+			<name>[Subprojects]/miniupnpc</name>
+			<type>2</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/igd_desc_parse.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/igd_desc_parse.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/miniupnpc.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/miniupnpc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/minixml.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/minixml.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/minisoap.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/minisoap.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/miniwget.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/miniwget.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/upnpc.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/upnpc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/upnpcommands.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/upnpcommands.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/upnpreplyparse.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/upnpreplyparse.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/upnperrors.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/upnperrors.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/connecthostport.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/connecthostport.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/portlistingparse.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/portlistingparse.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/receivedata.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/receivedata.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Source Files/minissdpc.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/miniupnpc/minissdpc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] upnpc-static/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files/gtest_main.cc</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/external/gtest/src/gtest_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/Source Files/InProcessNode.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/InProcessNode/InProcessNode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/Source Files/InProcessNodeErrors.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/InProcessNode/InProcessNodeErrors.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/Header Files/InProcessNode.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/InProcessNode/InProcessNode.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/Header Files/InProcessNodeErrors.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/InProcessNode/InProcessNodeErrors.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] InProcessNode/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//RpcServer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/RpcServer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//HttpServer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/HttpServer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//HttpClient.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/HttpClient.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//HttpClient.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/HttpClient.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//RpcServerConfig.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/RpcServerConfig.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//RpcServer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/RpcServer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//JsonRpc.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/JsonRpc.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//CoreRpcServerCommandsDefinitions.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/CoreRpcServerCommandsDefinitions.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//HttpServer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/HttpServer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//JsonRpc.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/JsonRpc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//RpcServerConfig.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/RpcServerConfig.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc//CoreRpcServerErrorCodes.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Rpc/CoreRpcServerErrorCodes.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Rpc/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet//SimpleWallet.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/SimpleWallet/SimpleWallet.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet//PasswordContainer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/SimpleWallet/PasswordContainer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet//PasswordContainer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/SimpleWallet/PasswordContainer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet//SimpleWallet.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/SimpleWallet/SimpleWallet.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SimpleWallet/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//CryptoNoteProtocolHandlerCommon.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandlerCommon.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//ICryptoNoteProtocolQuery.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteProtocol/ICryptoNoteProtocolQuery.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//ICryptoNoteProtocolObserver.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteProtocol/ICryptoNoteProtocolObserver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//CryptoNoteProtocolDefinitions.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//CryptoNoteProtocolHandler.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//CryptoNoteProtocolHandler.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pNodeConfig.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pNodeConfig.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pNode.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pNode.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pConnectionProxy.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pConnectionProxy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//NetNode.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/NetNode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pProtocolTypes.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pProtocolTypes.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//LevinProtocol.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/LevinProtocol.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//NetNode.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/NetNode.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//NetNodeConfig.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/NetNodeConfig.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//NetNodeConfig.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/NetNodeConfig.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pInterfaces.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pInterfaces.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//NetNodeCommon.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/NetNodeCommon.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pNodeConfig.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pNodeConfig.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//ConnectionContext.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/ConnectionContext.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//PeerListManager.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/PeerListManager.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//LevinProtocol.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/LevinProtocol.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pInterfaces.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pInterfaces.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//IP2pNodeInternal.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/IP2pNodeInternal.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pConnectionProxy.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pConnectionProxy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pProtocolDefinitions.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pProtocolDefinitions.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pNode.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pNode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pContext.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pContext.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pContext.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pContext.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//IP2pNodeInternal.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/IP2pNodeInternal.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//PeerListManager.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/PeerListManager.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pContextOwner.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pContextOwner.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pContextOwner.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pContextOwner.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P//P2pNetworks.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/P2p/P2pNetworks.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] P2P/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon//DaemonCommandsHandler.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Daemon/DaemonCommandsHandler.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon//Daemon.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Daemon/Daemon.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon//DaemonCommandsHandler.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Daemon/DaemonCommandsHandler.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Daemon/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ConnectivityTool</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ConnectivityTool/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ConnectivityTool//ConnectivityTool.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/ConnectivityTool/ConnectivityTool.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ConnectivityTool/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ConnectivityTool/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ConnectivityTool/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ConnectivityTool/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ConnectivityTool/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http//HttpResponse.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/HTTP/HttpResponse.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http//HttpParser.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/HTTP/HttpParser.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http//HttpRequest.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/HTTP/HttpRequest.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http//HttpParserErrorCodes.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/HTTP/HttpParserErrorCodes.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http//HttpResponse.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/HTTP/HttpResponse.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http//HttpParserErrorCodes.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/HTTP/HttpParserErrorCodes.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http//HttpRequest.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/HTTP/HttpRequest.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http//HttpParser.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/HTTP/HttpParser.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Http/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy//NodeErrors.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/NodeRpcProxy/NodeErrors.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy//NodeErrors.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/NodeRpcProxy/NodeErrors.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy//NodeRpcProxy.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/NodeRpcProxy/NodeRpcProxy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy//NodeRpcProxy.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/NodeRpcProxy/NodeRpcProxy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] NodeRpcProxy/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//LoggerMessage.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/LoggerMessage.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//ConsoleLogger.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/ConsoleLogger.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//StreamLogger.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/StreamLogger.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//FileLogger.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/FileLogger.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//LoggerMessage.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/LoggerMessage.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//LoggerManager.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/LoggerManager.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//CommonLogger.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/CommonLogger.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//FileLogger.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/FileLogger.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//ILogger.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/ILogger.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//ILogger.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/ILogger.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//LoggerRef.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/LoggerRef.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//LoggerGroup.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/LoggerGroup.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//LoggerGroup.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/LoggerGroup.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//LoggerRef.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/LoggerRef.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//StreamLogger.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/StreamLogger.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//ConsoleLogger.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/ConsoleLogger.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//CommonLogger.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/CommonLogger.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging//LoggerManager.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Logging/LoggerManager.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Logging/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//InterruptedException.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/InterruptedException.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//ContextGroupTimeout.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/ContextGroupTimeout.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//RemoteEventLock.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/RemoteEventLock.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Ipv4Address.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/Ipv4Address.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//InterruptedException.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/InterruptedException.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Context.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/Context.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//OperationTimeout.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/OperationTimeout.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//RemoteEventLock.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/RemoteEventLock.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//EventLock.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/EventLock.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//EventLock.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/EventLock.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Ipv4Address.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/Ipv4Address.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//TcpStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/TcpStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//ContextGroupTimeout.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/ContextGroupTimeout.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//ContextGroup.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/ContextGroup.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Event.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/Event.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Event.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/Event.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//TcpStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/TcpStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//RemoteContext.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/RemoteContext.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//ContextGroup.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/System/ContextGroup.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//TcpConnector.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/TcpConnector.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//TcpConnection.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/TcpConnection.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//ErrorMessage.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/ErrorMessage.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//TcpConnection.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/TcpConnection.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//TcpListener.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/TcpListener.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//TcpListener.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/TcpListener.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//TcpConnector.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/TcpConnector.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Dispatcher.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/Dispatcher.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Ipv4Resolver.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/Ipv4Resolver.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Future.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/Future.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Dispatcher.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/Dispatcher.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Timer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/Timer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//ErrorMessage.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/ErrorMessage.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Timer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/Timer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System//Ipv4Resolver.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Platform/Linux/System/Ipv4Resolver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] System/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//IInputStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/IInputStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StdOutputStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StdOutputStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//VectorOutputStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/VectorOutputStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//Varint.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/Varint.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//int-util.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/int-util.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StreamTools.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StreamTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//VectorOutputStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/VectorOutputStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//Util.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/Util.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//ConsoleHandler.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/ConsoleHandler.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//JsonValue.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/JsonValue.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//Util.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/Util.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StdInputStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StdInputStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StreamTools.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StreamTools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringInputStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringInputStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//PathTools.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/PathTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringTools.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringTools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//BlockingQueue.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/BlockingQueue.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//MemoryInputStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/MemoryInputStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//pod-class.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/pod-class.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//ShuffleGenerator.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/ShuffleGenerator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringView.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringView.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringBuffer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringBuffer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StdInputStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StdInputStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringOutputStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringOutputStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//ArrayView.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/ArrayView.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//Math.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/Math.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//ArrayRef.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/ArrayRef.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//JsonValue.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/JsonValue.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//Math.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/Math.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//ObserverManager.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/ObserverManager.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//IOutputStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/IOutputStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//CommandLine.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/CommandLine.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//ConsoleTools.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/ConsoleTools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//CommandLine.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/CommandLine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringView.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringView.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//Base58.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/Base58.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//BlockingQueue.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/BlockingQueue.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//ConsoleHandler.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/ConsoleHandler.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//IInputStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/IInputStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//ConsoleTools.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/ConsoleTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringOutputStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringOutputStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//IOutputStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/IOutputStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringTools.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StringInputStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StringInputStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//PathTools.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/PathTools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//StdOutputStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/StdOutputStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//SignalHandler.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/SignalHandler.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//static_assert.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/static_assert.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//SignalHandler.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/SignalHandler.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common//Base58.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/Base58.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common/Header Files/MemoryInputStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Common/MemoryInputStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Common/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//slow-hash.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/slow-hash.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//hash-ops.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/hash-ops.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//slow-hash.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/slow-hash.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//hash-extra-groestl.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/hash-extra-groestl.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//hash-extra-blake.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/hash-extra-blake.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//hash-extra-skein.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/hash-extra-skein.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//hash.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/hash.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//crypto.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/crypto.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//random.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/random.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//tree-hash.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/tree-hash.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//skein_port.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/skein_port.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//groestl.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/groestl.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//oaes_lib.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/oaes_lib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//crypto-ops.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/crypto-ops.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//crypto-ops.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/crypto-ops.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//skein.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/skein.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//oaes_lib.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/oaes_lib.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//skein.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/skein.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//hash-extra-jh.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/hash-extra-jh.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//keccak.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/keccak.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//blake256.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/blake256.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//jh.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/jh.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//groestl.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/groestl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//generic-ops.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/generic-ops.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//slow-hash.inl</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/slow-hash.inl</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//oaes_config.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/oaes_config.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//jh.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/jh.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//crypto-ops-data.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/crypto-ops-data.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//random.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/random.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//aesb.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/aesb.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//initializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/initializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//groestl_tables.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/groestl_tables.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//blake256.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/blake256.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//chacha8.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/chacha8.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//hash.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/hash.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//keccak.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/keccak.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//crypto.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/crypto.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto//chacha8.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/crypto/chacha8.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Crypto/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Source Files/ConfigurationManager.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/ConfigurationManager.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Source Files/PaymentGateService.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/PaymentGateService.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Source Files/PaymentServiceConfiguration.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/PaymentServiceConfiguration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Source Files/RpcNodeConfiguration.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/RpcNodeConfiguration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Header Files/RpcNodeConfiguration.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/RpcNodeConfiguration.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Header Files/PaymentGateService.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/PaymentGateService.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Header Files/ConfigurationManager.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/ConfigurationManager.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Header Files/PaymentServiceConfiguration.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGateService/PaymentServiceConfiguration.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PaymentGateService/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Difficulty.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Difficulty.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//SwappedMap.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/SwappedMap.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//BlockIndex.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/BlockIndex.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionApiExtra.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionApiExtra.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//ITimeProvider.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/ITimeProvider.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteBasicImpl.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//IntrusiveLinkedList.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/IntrusiveLinkedList.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionExtra.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionExtra.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//BlockchainMessages.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/BlockchainMessages.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//ICoreObserver.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/ICoreObserver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Account.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Account.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//IMinerHandler.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/IMinerHandler.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Core.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Core.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionUtils.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionUtils.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Checkpoints.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Checkpoints.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//BlockIndex.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/BlockIndex.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteBasic.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteBasic.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Miner.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Miner.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Blockchain.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Blockchain.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//BlockchainMessages.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/BlockchainMessages.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionExtra.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionExtra.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//SwappedVector.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/SwappedVector.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Checkpoints.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Checkpoints.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Currency.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Currency.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//ICore.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/ICore.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CoreConfig.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CoreConfig.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Miner.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Miner.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//ITxPoolObserver.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/ITxPoolObserver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionApi.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionApi.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//ITimeProvider.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/ITimeProvider.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteBasicImpl.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteBasicImpl.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionPool.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionPool.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionPool.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionPool.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//BlockchainIndices.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/BlockchainIndices.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//IBlockchainStorageObserver.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/IBlockchainStorageObserver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//MinerConfig.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/MinerConfig.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Currency.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Currency.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionUtils.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionUtils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//BlockchainIndices.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/BlockchainIndices.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteBasic.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteBasic.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//MessageQueue.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/MessageQueue.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteTools.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteTools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//ITransactionValidator.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/ITransactionValidator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//TransactionPrefixImpl.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/TransactionPrefixImpl.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//MinerConfig.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/MinerConfig.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteSerialization.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteSerialization.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//SwappedMap.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/SwappedMap.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//IBlock.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/IBlock.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//SwappedVector.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/SwappedVector.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//IBlock.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/IBlock.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteSerialization.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteSerialization.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Difficulty.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Difficulty.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Blockchain.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Blockchain.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Core.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Core.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteFormatUtils.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//VerificationContext.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/VerificationContext.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteFormatUtils.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteFormatUtils.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Transaction.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Transaction.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//Account.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/Account.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//OnceInInterval.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/OnceInInterval.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CoreConfig.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CoreConfig.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteTools.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteStatInfo.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteCore/CryptoNoteStatInfo.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore//CryptoNoteConfig.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/CryptoNoteConfig.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] CryptoNoteCore/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TransfersSubscription.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TransfersSubscription.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TransfersContainer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TransfersContainer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//IObservableImpl.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/IObservableImpl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TransfersSubscription.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TransfersSubscription.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TypeHelpers.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TypeHelpers.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//SynchronizationState.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/SynchronizationState.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//BlockchainSynchronizer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/BlockchainSynchronizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TransfersSynchronizer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TransfersSynchronizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TransfersSynchronizer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TransfersSynchronizer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//CommonTypes.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/CommonTypes.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TransfersConsumer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TransfersConsumer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//BlockchainSynchronizer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/BlockchainSynchronizer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TransfersContainer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TransfersContainer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//IBlockchainSynchronizer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/IBlockchainSynchronizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//TransfersConsumer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/TransfersConsumer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers//SynchronizationState.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Transfers/SynchronizationState.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Transfers/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Source Files/WalletFactory.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/WalletFactory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Source Files/PaymentServiceJsonRpcMessages.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/PaymentServiceJsonRpcMessages.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Source Files/WalletService.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/WalletService.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Source Files/NodeFactory.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/NodeFactory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Source Files/PaymentServiceJsonRpcServer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/PaymentServiceJsonRpcServer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Header Files/NodeFactory.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/NodeFactory.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Header Files/PaymentServiceJsonRpcServer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/PaymentServiceJsonRpcServer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Header Files/WalletService.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/WalletService.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Header Files/PaymentServiceJsonRpcMessages.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/PaymentServiceJsonRpcMessages.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Header Files/WalletFactory.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/PaymentGate/WalletFactory.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] PaymentGate/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Source Files/BlockchainExplorerErrors.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/BlockchainExplorer/BlockchainExplorerErrors.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Source Files/BlockchainExplorerDataBuilder.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Source Files/BlockchainExplorer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/BlockchainExplorer/BlockchainExplorer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Header Files/BlockchainExplorerErrors.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/BlockchainExplorer/BlockchainExplorerErrors.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Header Files/BlockchainExplorer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/BlockchainExplorer/BlockchainExplorer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Header Files/BlockchainExplorerDataBuilder.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/BlockchainExplorer/BlockchainExplorerDataBuilder.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] BlockchainExplorer/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer//JsonRpcServer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/JsonRpcServer/JsonRpcServer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer//JsonRpcServer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/JsonRpcServer/JsonRpcServer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] JsonRpcServer/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//JsonInputStreamSerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/JsonInputStreamSerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//ISerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/ISerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//SerializationOverloads.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/SerializationOverloads.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//KVBinaryOutputStreamSerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/KVBinaryOutputStreamSerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//KVBinaryOutputStreamSerializer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/KVBinaryOutputStreamSerializer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//JsonInputStreamSerializer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/JsonInputStreamSerializer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//BinaryOutputStreamSerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/BinaryOutputStreamSerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//BinaryInputStreamSerializer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/BinaryInputStreamSerializer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//JsonInputValueSerializer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/JsonInputValueSerializer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//SerializationTools.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/SerializationTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//BinarySerializationTools.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/BinarySerializationTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//MemoryStream.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/MemoryStream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//IStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/IStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//JsonOutputStreamSerializer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/JsonOutputStreamSerializer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//JsonOutputStreamSerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/JsonOutputStreamSerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//KVBinaryInputStreamSerializer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/KVBinaryInputStreamSerializer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//KVBinaryCommon.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/KVBinaryCommon.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//MemoryStream.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/MemoryStream.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//BinaryOutputStreamSerializer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/BinaryOutputStreamSerializer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//BinaryInputStreamSerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/BinaryInputStreamSerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//KVBinaryInputStreamSerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/KVBinaryInputStreamSerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//JsonInputValueSerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/JsonInputValueSerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization//SerializationOverloads.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Serialization/SerializationOverloads.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Serialization/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletGreen.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletGreen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletRpcServerErrorCodes.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletRpcServerErrorCodes.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletRpcServerCommandsDefinitions.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletRpcServerCommandsDefinitions.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletAsyncContextCounter.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletAsyncContextCounter.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//LegacyKeysImporter.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/LegacyKeysImporter.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletIndices.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletIndices.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletSerialization.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletSerialization.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//IFusionManager.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/IFusionManager.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//LegacyKeysImporter.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/LegacyKeysImporter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletSerialization.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletSerialization.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletErrors.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletErrors.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletErrors.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletErrors.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletRpcServer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletRpcServer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletGreen.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletGreen.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletRpcServer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletRpcServer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletAsyncContextCounter.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/Wallet/WalletAsyncContextCounter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletUserTransactionsCache.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletUserTransactionsCache.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletLegacySerialization.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletLegacySerialization.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//KeysStorage.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/KeysStorage.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletUserTransactionsCache.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletUserTransactionsCache.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletTransactionSender.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletTransactionSender.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletLegacyEvent.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletLegacyEvent.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletSendTransactionContext.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletSendTransactionContext.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletUnconfirmedTransactions.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletUnconfirmedTransactions.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletLegacySerializer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletLegacySerializer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletHelper.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletHelper.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletTransactionSender.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletTransactionSender.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletLegacy.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletLegacy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletLegacy.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletLegacy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletRequest.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletRequest.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletUnconfirmedTransactions.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletUnconfirmedTransactions.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//KeysStorage.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/KeysStorage.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletLegacySerializer.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletLegacySerializer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletLegacySerialization.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletLegacySerialization.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletHelper.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletHelper.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet//WalletUtils.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/src/WalletLegacy/WalletUtils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Wallet/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTargetTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTargetTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTargetTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTargetTests/Source Files/HashTarget.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/HashTarget.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTargetTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTargetTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTargetTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTargetTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//double_spend.inl</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/double_spend.inl</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//ChainSwitch1.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/ChainSwitch1.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//ChainSplit1.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/ChainSplit1.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//RandomOuts.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/RandomOuts.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//Chaingen.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/Chaingen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//RingSignature.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/RingSignature.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//AccountBoostSerialization.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/AccountBoostSerialization.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//BlockValidation.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/BlockValidation.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//Chaingen001.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/Chaingen001.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//BlockReward.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/BlockReward.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//IntegerOverflow.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/IntegerOverflow.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//TransactionTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/TransactionTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//UnorderedContainersBoostSerialization.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/UnorderedContainersBoostSerialization.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//TransactionBuilder.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/TransactionBuilder.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//TestGenerator.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/TestGenerator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//BlockReward.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/BlockReward.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//RingSignature.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/RingSignature.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//TransactionBuilder.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/TransactionBuilder.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//RandomOuts.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/RandomOuts.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//ChainSplit1.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/ChainSplit1.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//ChaingenMain.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/ChaingenMain.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//CryptoNoteBoostSerialization.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/CryptoNoteBoostSerialization.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//BlockValidation.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/BlockValidation.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//Chaingen.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/Chaingen.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//TransactionTests.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/TransactionTests.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//DoubleSpend.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/DoubleSpend.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//ChainSwitch1.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/ChainSwitch1.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//TransactionValidation.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/TransactionValidation.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//Chaingen001.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/Chaingen001.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//BoostSerializationHelper.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/BoostSerializationHelper.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//DoubleSpend.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/DoubleSpend.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//IntegerOverflow.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/IntegerOverflow.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests//TransactionValidation.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/CoreTests/TransactionValidation.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CoreTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests//MultiVersion.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTests/MultiVersion.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests//BaseTests.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTests/BaseTests.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests//WalletLegacyObserver.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTests/WalletLegacyObserver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests//main.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTests/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests//IntegrationTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTests/IntegrationTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests//WalletLegacyTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTests/WalletLegacyTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests//Node.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTests/Node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IntegrationTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//TimerTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/TimerTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//Ipv4ResolverTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/Ipv4ResolverTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//TcpConnectionTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/TcpConnectionTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//Ipv4AddressTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/Ipv4AddressTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//ContextTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/ContextTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//ContextGroupTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/ContextGroupTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//main.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//EventTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/EventTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//DispatcherTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/DispatcherTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//RemoteContextTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/RemoteContextTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//TcpConnectorTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/TcpConnectorTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//ErrorMessageTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/ErrorMessageTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//EventLockTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/EventLockTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//ContextGroupTimeoutTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/ContextGroupTimeoutTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//TcpListenerTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/TcpListenerTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests//OperationTimeoutTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/System/OperationTimeoutTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] SystemTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests//TestNodeRpcProxy.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/TransfersTests/TestNodeRpcProxy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests//main.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/TransfersTests/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests//Globals.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/TransfersTests/Globals.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests//TestTxPoolSync.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/TransfersTests/TestTxPoolSync.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests//Tests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/TransfersTests/Tests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TransfersTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests//crypto-tests.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/crypto/crypto-tests.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests//tests.txt</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/crypto/tests.txt</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests//main.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/crypto/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests//crypto-ops.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/crypto/crypto-ops.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests//crypto-ops-data.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/crypto/crypto-ops-data.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests//random.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/crypto/random.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests//hash.c</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/crypto/hash.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests//crypto.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/crypto/crypto.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CryptoTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTests/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/Hash/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] HashTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator//TestGenerator.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/TestGenerator/TestGenerator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator//TestGenerator.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/TestGenerator/TestGenerator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] TestGenerator/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NodeRpcProxyTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NodeRpcProxyTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NodeRpcProxyTests//NodeRpcProxyTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/NodeRpcProxyTests/NodeRpcProxyTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NodeRpcProxyTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NodeRpcProxyTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NodeRpcProxyTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NodeRpcProxyTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NodeRpcProxyTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//GenerateKeyImage.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/GenerateKeyImage.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//CryptoNoteSlowHash.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/CryptoNoteSlowHash.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//DeriveSecretKey.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/DeriveSecretKey.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//IsOutToAccount.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/IsOutToAccount.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//main.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//PerformanceTests.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/PerformanceTests.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//CheckRingSignature.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/CheckRingSignature.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//SingleTransactionTestBase.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/SingleTransactionTestBase.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//PerformanceUtils.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/PerformanceUtils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//GenerateKeyDerivation.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/GenerateKeyDerivation.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//GenerateKeyImageHelper.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/GenerateKeyImageHelper.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//MultiTransactionTestBase.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/MultiTransactionTestBase.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//ConstructTransaction.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/ConstructTransaction.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests//DerivePublicKey.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/PerformanceTests/DerivePublicKey.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] PerformanceTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//Logger.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/Logger.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//ObservableValue.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/ObservableValue.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//TestNode.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/TestNode.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//Logger.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/Logger.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//TestWalletLegacy.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/TestWalletLegacy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//InProcTestNode.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/InProcTestNode.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//NetworkConfiguration.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/NetworkConfiguration.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//Process.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/Process.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//TestNetwork.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/TestNetwork.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//NodeCallback.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/NodeCallback.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//RPCTestNode.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/RPCTestNode.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//BaseFunctionalTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/BaseFunctionalTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//TestWalletLegacy.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/TestWalletLegacy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//Process.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/Process.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//NodeObserver.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/NodeObserver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//BaseFunctionalTests.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/BaseFunctionalTests.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//InProcTestNode.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/InProcTestNode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//RPCTestNode.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/RPCTestNode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary//TestNetwork.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/IntegrationTestLib/TestNetwork.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] IntegrationTestLibrary/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] DifficultyTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] DifficultyTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] DifficultyTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] DifficultyTests/Source Files/Difficulty.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/Difficulty/Difficulty.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] DifficultyTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] DifficultyTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] DifficultyTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] DifficultyTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//ICryptoNoteProtocolQueryStub.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/ICryptoNoteProtocolQueryStub.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//ICoreStub.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/ICoreStub.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//SerializationKV.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/SerializationKV.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//ICryptoNoteProtocolQueryStub.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/ICryptoNoteProtocolQueryStub.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestTransactionPoolDetach.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestTransactionPoolDetach.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestBlockchainGenerator.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestBlockchainGenerator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestProtocolPack.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestProtocolPack.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//Checkpoints.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/Checkpoints.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestCurrency.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestCurrency.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//Chacha8.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/Chacha8.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//EventWaiter.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/EventWaiter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//Shuffle.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/Shuffle.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//INodeStubs.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/INodeStubs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//main.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//BlockReward.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/BlockReward.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//Serialization.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/Serialization.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestWallet.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestWallet.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//ICoreStub.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/ICoreStub.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//DecomposeAmountIntoDigits.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/DecomposeAmountIntoDigits.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//StringBufferTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/StringBufferTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TransactionPool.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TransactionPool.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//StringViewTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/StringViewTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//ParseAmount.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/ParseAmount.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TransactionApiHelpers.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TransactionApiHelpers.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestBcS.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestBcS.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//UnitTestsUtils.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/UnitTestsUtils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//ArrayRefTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/ArrayRefTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestInprocessNode.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestInprocessNode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestPeerlist.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestPeerlist.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestTransfersConsumer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestTransfersConsumer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//INodeStubs.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/INodeStubs.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestWalletLegacy.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestWalletLegacy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestBlockchainGenerator.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestBlockchainGenerator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TransactionApi.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TransactionApi.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestPath.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestPath.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestFormatUtils.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestFormatUtils.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestTransfersContainerKeyImage.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestTransfersContainerKeyImage.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestMessageQueue.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestMessageQueue.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestTransfers.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestTransfers.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestJsonValue.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestJsonValue.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//BlockingQueue.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/BlockingQueue.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//MulDiv.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/MulDiv.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//ArrayViewTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/ArrayViewTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//EventWaiter.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/EventWaiter.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestTransfersContainer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestTransfersContainer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//PaymentGateTests.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/PaymentGateTests.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestTransfersSubscription.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestTransfersSubscription.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TransfersObserver.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TransfersObserver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TestBlockchainExplorer.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TestBlockchainExplorer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//Base58.cpp</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/Base58.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests//TransactionApiHelpers.h</name>
+			<type>1</type>
+			<location>/home/franco/Dinastycoin/tests/UnitTests/TransactionApiHelpers.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] UnitTests/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

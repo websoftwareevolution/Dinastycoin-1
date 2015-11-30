@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="miniupnpc" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\external\;CMake Files\external\miniupnpc\;CMake Files\external\gtest\;CMake Files\external\gtest\cmake\;CMake Files\tests\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/franco/Dinastycoin/build/release/external/miniupnpc" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="upnpc-static">
+         <Option output="/home/franco/Dinastycoin/build/release/external/miniupnpc/libminiupnpc.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/franco/Dinastycoin/build/release/external/miniupnpc" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DMINIUPNPC_SET_SOCKET_TIMEOUT" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_POSIX_C_SOURCE=1" />
+            <Add directory="/home/franco/Dinastycoin/build/release" />
+            <Add directory="/home/franco/Dinastycoin/build/release/version" />
+            <Add directory="/home/franco/Dinastycoin/external" />
+            <Add directory="/home/franco/Dinastycoin/include" />
+            <Add directory="/home/franco/Dinastycoin/src" />
+            <Add directory="/home/franco/Dinastycoin/src/Platform/Linux" />
+            <Add directory="/home/franco/boost_1_59_0" />
+            <Add directory="/home/franco/boost_1_59_0/boost" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 upnpc-static" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="upnpc-static/fast">
+         <Option output="/home/franco/Dinastycoin/build/release/external/miniupnpc/libminiupnpc.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/franco/Dinastycoin/build/release/external/miniupnpc" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DMINIUPNPC_SET_SOCKET_TIMEOUT" />
+            <Add option="-D_BSD_SOURCE" />
+            <Add option="-D_POSIX_C_SOURCE=1" />
+            <Add directory="/home/franco/Dinastycoin/build/release" />
+            <Add directory="/home/franco/Dinastycoin/build/release/version" />
+            <Add directory="/home/franco/Dinastycoin/external" />
+            <Add directory="/home/franco/Dinastycoin/include" />
+            <Add directory="/home/franco/Dinastycoin/src" />
+            <Add directory="/home/franco/Dinastycoin/src/Platform/Linux" />
+            <Add directory="/home/franco/boost_1_59_0" />
+            <Add directory="/home/franco/boost_1_59_0/boost" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 upnpc-static/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/franco/Dinastycoin/build/release/external/miniupnpc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/connecthostport.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/igd_desc_parse.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/minisoap.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/minissdpc.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/miniupnpc.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/miniwget.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/minixml.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/portlistingparse.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/receivedata.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/upnpc.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/upnpcommands.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/upnperrors.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/upnpreplyparse.c">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/connecthostport.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/igd_desc_parse.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/minisoap.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/minissdpc.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/miniupnpc.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/miniwget.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/minixml.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/portlistingparse.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/receivedata.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/upnpcommands.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/upnperrors.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/upnpreplyparse.h">
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/CTestCustom.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/src/version.h.in">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\miniupnpc\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/miniupnpcstrings.h.cmake">
+          <Option virtualFolder="CMake Files\external\miniupnpc\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\miniupnpc\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/miniupnpc/miniupnpcstrings.h.cmake">
+          <Option virtualFolder="CMake Files\external\miniupnpc\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\gtest\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\gtest\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\external\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/external/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\external\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/home/franco/Dinastycoin/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

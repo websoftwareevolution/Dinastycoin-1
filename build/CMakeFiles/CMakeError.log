@@ -1,0 +1,97 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1544467564/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1544467564.dir/build.make CMakeFiles/cmTryCompileExec1544467564.dir/build
+make[1]: ingresso nella directory "/home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1544467564.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes    -o CMakeFiles/cmTryCompileExec1544467564.dir/CheckSymbolExists.c.o   -c /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1544467564
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1544467564.dir/link.txt --verbose=1
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes     CMakeFiles/cmTryCompileExec1544467564.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1544467564 -rdynamic 
+CMakeFiles/cmTryCompileExec1544467564.dir/CheckSymbolExists.c.o: nella funzione "main":
+CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1544467564.dir/build.make:88: set di istruzioni per l'obiettivo "cmTryCompileExec1544467564" non riuscito
+make[1]: *** [cmTryCompileExec1544467564] Errore 1
+make[1]: uscita dalla directory "/home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp"
+Makefile:117: set di istruzioni per l'obiettivo "cmTryCompileExec1544467564/fast" non riuscito
+make: *** [cmTryCompileExec1544467564/fast] Errore 2
+
+File /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3641727596/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3641727596.dir/build.make CMakeFiles/cmTryCompileExec3641727596.dir/build
+make[1]: ingresso nella directory "/home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3641727596.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3641727596.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:1: error: function declaration isn’t a prototype [-Werror=strict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+cc1: all warnings being treated as errors
+CMakeFiles/cmTryCompileExec3641727596.dir/build.make:57: set di istruzioni per l'obiettivo "CMakeFiles/cmTryCompileExec3641727596.dir/CheckFunctionExists.c.o" non riuscito
+make[1]: uscita dalla directory "/home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp"
+make[1]: *** [CMakeFiles/cmTryCompileExec3641727596.dir/CheckFunctionExists.c.o] Errore 1
+Makefile:117: set di istruzioni per l'obiettivo "cmTryCompileExec3641727596/fast" non riuscito
+make: *** [cmTryCompileExec3641727596/fast] Errore 2
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3562090300/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3562090300.dir/build.make CMakeFiles/cmTryCompileExec3562090300.dir/build
+make[1]: ingresso nella directory "/home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3562090300.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3562090300.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:1: error: function declaration isn’t a prototype [-Werror=strict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+cc1: all warnings being treated as errors
+CMakeFiles/cmTryCompileExec3562090300.dir/build.make:57: set di istruzioni per l'obiettivo "CMakeFiles/cmTryCompileExec3562090300.dir/CheckFunctionExists.c.o" non riuscito
+make[1]: uscita dalla directory "/home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp"
+make[1]: *** [CMakeFiles/cmTryCompileExec3562090300.dir/CheckFunctionExists.c.o] Errore 1
+Makefile:117: set di istruzioni per l'obiettivo "cmTryCompileExec3562090300/fast" non riuscito
+make: *** [cmTryCompileExec3562090300/fast] Errore 2
+
+
+Determining if compiler accepts -pthread failed with the following output:
+Change Dir: /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3442733744/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3442733744.dir/build.make CMakeFiles/cmTryCompileExec3442733744.dir/build
+make[1]: ingresso nella directory "/home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3442733744.dir/CheckForPthreads.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes    -o CMakeFiles/cmTryCompileExec3442733744.dir/CheckForPthreads.c.o   -c /usr/share/cmake-3.2/Modules/CheckForPthreads.c
+/usr/share/cmake-3.2/Modules/CheckForPthreads.c: In function ‘runner’:
+/usr/share/cmake-3.2/Modules/CheckForPthreads.c:34:27: error: cast from pointer to integer of different size [-Werror=pointer-to-int-cast]
+     printf("%d CC: %d\n", (int)args, cc);
+                           ^
+cc1: all warnings being treated as errors
+CMakeFiles/cmTryCompileExec3442733744.dir/build.make:57: set di istruzioni per l'obiettivo "CMakeFiles/cmTryCompileExec3442733744.dir/CheckForPthreads.c.o" non riuscito
+make[1]: uscita dalla directory "/home/franco/Dinastycoin/build/CMakeFiles/CMakeTmp"
+make[1]: *** [CMakeFiles/cmTryCompileExec3442733744.dir/CheckForPthreads.c.o] Errore 1
+Makefile:117: set di istruzioni per l'obiettivo "cmTryCompileExec3442733744/fast" non riuscito
+make: *** [cmTryCompileExec3442733744/fast] Errore 2
+
+
