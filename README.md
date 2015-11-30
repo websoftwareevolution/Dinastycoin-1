@@ -1,0 +1,2 @@
+# Dinastycoin
+DinastyCoin original
