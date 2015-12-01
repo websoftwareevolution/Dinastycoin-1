@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is the reference code for [CryptoNote](https://cryptonote.org) cryptocurrency protocol.
 
 * Launch your own CryptoNote currency: [CryptoNote Starter](https://cryptonotestarter.org/)
@@ -239,3 +240,7 @@ cmake -G "Visual Studio 12 Win64" ..
 
 And then do Build.
 Good luck!
+=======
+# Dinastycoin
+DinastyCoin original
+>>>>>>> 641245ab834611c74912aedf67b7af7ec81d8245
